@@ -3,5 +3,5 @@
 okuduğu kitapları ekleyebileceği ve sistem içirisinde kayıtlı olan diğer kullanıcıların kendi profillerine erişip, eklediği kitapları
 görebileceği bir platformdur.
  
- Iphone OS mobil sistemle cihazlar için geliştirilmiştir.
+ Iphone OS mobil sistemli cihazlar için geliştirilmiştir.
  
