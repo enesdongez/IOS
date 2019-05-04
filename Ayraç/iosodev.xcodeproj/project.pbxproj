@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A328EA20AAEFB4C41A7BCFA /* Pods_iosodev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39571C7AAA3945776399059 /* Pods_iosodev.framework */; };
+		BC9BD9D6226CD65900279881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9BD9D5226CD65900279881 /* AppDelegate.swift */; };
+		BC9BD9D8226CD65900279881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9BD9D7226CD65900279881 /* ViewController.swift */; };
+		BC9BD9DB226CD65900279881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9BD9D9226CD65900279881 /* Main.storyboard */; };
+		BC9BD9DD226CD65B00279881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC9BD9DC226CD65B00279881 /* Assets.xcassets */; };
+		BC9BD9E0226CD65B00279881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC9BD9DE226CD65B00279881 /* LaunchScreen.storyboard */; };
+		C400362A22732A5200BC31D3 /* iki.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C400362822732A5200BC31D3 /* iki.jpg */; };
+		C400362B22732A5200BC31D3 /* bir.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C400362922732A5200BC31D3 /* bir.jpg */; };
+		C400362D22732C4200BC31D3 /* kitaphucrem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400362C22732C4200BC31D3 /* kitaphucrem.swift */; };
+		C400362F22732FC800BC31D3 /* hucreayrinti.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400362E22732FC800BC31D3 /* hucreayrinti.swift */; };
+		C4003631227339F400BC31D3 /* profil.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4003630227339F400BC31D3 /* profil.swift */; };
+		C400363322733A0D00BC31D3 /* hakkimizda.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400363222733A0D00BC31D3 /* hakkimizda.swift */; };
+		C400363522733C2D00BC31D3 /* bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C400363422733C2D00BC31D3 /* bar.swift */; };
+		C436584C227A500000919BA8 /* DenemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C436584B227A500000919BA8 /* DenemeViewController.swift */; };
+		C44407502271FF6400278790 /* AnasayfaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C444074F2271FF6400278790 /* AnasayfaTableViewController.swift */; };
+		C4536840227B29050001A96A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C453683F227B29050001A96A /* User.swift */; };
+		C4536842227B2AE30001A96A /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4536841227B2AE30001A96A /* BookModel.swift */; };
+		C46F858C227CB19600F8EE8E /* navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F858B227CB19600F8EE8E /* navigation.swift */; };
+		C46F858E227CE3F000F8EE8E /* profilbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F858D227CE3F000F8EE8E /* profilbar.swift */; };
+		C46F8590227CE65C00F8EE8E /* profilklist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C46F858F227CE65C00F8EE8E /* profilklist.swift */; };
+		C47E9DAB22752F9B005531BE /* van_gogh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C47E9DAA22752F9A005531BE /* van_gogh.jpg */; };
+		C4994B8222710199007C32F1 /* kitaplik.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4994B8122710199007C32F1 /* kitaplik.swift */; };
+		C4994B8422710278007C32F1 /* kayitolController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4994B8322710278007C32F1 /* kayitolController.swift */; };
+		C4AA1002227C8E54008A7A65 /* IcerikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4AA1001227C8E54008A7A65 /* IcerikViewController.swift */; };
+		C4C560B2227DDDD9009FBB4B /* kullanicilar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C560B1227DDDD9009FBB4B /* kullanicilar.swift */; };
+		C4C560B4227DDE60009FBB4B /* kullanicibar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C560B3227DDE60009FBB4B /* kullanicibar.swift */; };
+		C4C560B6227DE40A009FBB4B /* kullanicikitapbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C560B5227DE40A009FBB4B /* kullanicikitapbar.swift */; };
+		C4C560B8227DE4EF009FBB4B /* kullanicidetey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C560B7227DE4EF009FBB4B /* kullanicidetey.swift */; };
+		C4DB2EFD2276278400C6006F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4DB2EFC2276278300C6006F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1712BFBDBBDF40E84045F9E1 /* Pods-iosodev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosodev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosodev/Pods-iosodev.debug.xcconfig"; sourceTree = "<group>"; };
+		44CEDC00D2A81E9945EAC355 /* Pods-iosodev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosodev.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosodev/Pods-iosodev.release.xcconfig"; sourceTree = "<group>"; };
+		B39571C7AAA3945776399059 /* Pods_iosodev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosodev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9BD9D2226CD65900279881 /* iosodev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosodev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC9BD9D5226CD65900279881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC9BD9D7226CD65900279881 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC9BD9DA226CD65900279881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC9BD9DC226CD65B00279881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC9BD9DF226CD65B00279881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC9BD9E1226CD65B00279881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C400362822732A5200BC31D3 /* iki.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iki.jpg; sourceTree = "<group>"; };
+		C400362922732A5200BC31D3 /* bir.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bir.jpg; sourceTree = "<group>"; };
+		C400362C22732C4200BC31D3 /* kitaphucrem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kitaphucrem.swift; sourceTree = "<group>"; };
+		C400362E22732FC800BC31D3 /* hucreayrinti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hucreayrinti.swift; sourceTree = "<group>"; };
+		C4003630227339F400BC31D3 /* profil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profil.swift; sourceTree = "<group>"; };
+		C400363222733A0D00BC31D3 /* hakkimizda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hakkimizda.swift; sourceTree = "<group>"; };
+		C400363422733C2D00BC31D3 /* bar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bar.swift; sourceTree = "<group>"; };
+		C436584B227A500000919BA8 /* DenemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeViewController.swift; sourceTree = "<group>"; };
+		C444074F2271FF6400278790 /* AnasayfaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnasayfaTableViewController.swift; sourceTree = "<group>"; };
+		C453683F227B29050001A96A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C4536841227B2AE30001A96A /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		C46F858B227CB19600F8EE8E /* navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navigation.swift; sourceTree = "<group>"; };
+		C46F858D227CE3F000F8EE8E /* profilbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilbar.swift; sourceTree = "<group>"; };
+		C46F858F227CE65C00F8EE8E /* profilklist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilklist.swift; sourceTree = "<group>"; };
+		C47E9DAA22752F9A005531BE /* van_gogh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = van_gogh.jpg; sourceTree = "<group>"; };
+		C4994B8122710199007C32F1 /* kitaplik.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kitaplik.swift; sourceTree = "<group>"; };
+		C4994B8322710278007C32F1 /* kayitolController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kayitolController.swift; sourceTree = "<group>"; };
+		C4AA1001227C8E54008A7A65 /* IcerikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IcerikViewController.swift; sourceTree = "<group>"; };
+		C4C560B1227DDDD9009FBB4B /* kullanicilar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kullanicilar.swift; sourceTree = "<group>"; };
+		C4C560B3227DDE60009FBB4B /* kullanicibar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kullanicibar.swift; sourceTree = "<group>"; };
+		C4C560B5227DE40A009FBB4B /* kullanicikitapbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kullanicikitapbar.swift; sourceTree = "<group>"; };
+		C4C560B7227DE4EF009FBB4B /* kullanicidetey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kullanicidetey.swift; sourceTree = "<group>"; };
+		C4DB2EFC2276278300C6006F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC9BD9CF226CD65900279881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A328EA20AAEFB4C41A7BCFA /* Pods_iosodev.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EC071D3A25D735B6EE84037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1712BFBDBBDF40E84045F9E1 /* Pods-iosodev.debug.xcconfig */,
+				44CEDC00D2A81E9945EAC355 /* Pods-iosodev.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC9BD9C9226CD65900279881 = {
+			isa = PBXGroup;
+			children = (
+				BC9BD9D4226CD65900279881 /* iosodev */,
+				BC9BD9D3226CD65900279881 /* Products */,
+				1EC071D3A25D735B6EE84037 /* Pods */,
+				EAE0811712D0DF49192C5AF9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC9BD9D3226CD65900279881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC9BD9D2226CD65900279881 /* iosodev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC9BD9D4226CD65900279881 /* iosodev */ = {
+			isa = PBXGroup;
+			children = (
+				BC9BD9D5226CD65900279881 /* AppDelegate.swift */,
+				C4994B8122710199007C32F1 /* kitaplik.swift */,
+				C4DB2EFC2276278300C6006F /* GoogleService-Info.plist */,
+				BC9BD9D9226CD65900279881 /* Main.storyboard */,
+				BC9BD9DC226CD65B00279881 /* Assets.xcassets */,
+				BC9BD9DE226CD65B00279881 /* LaunchScreen.storyboard */,
+				BC9BD9E1226CD65B00279881 /* Info.plist */,
+				BC9BD9D7226CD65900279881 /* ViewController.swift */,
+				C4994B8322710278007C32F1 /* kayitolController.swift */,
+				C444074F2271FF6400278790 /* AnasayfaTableViewController.swift */,
+				C400362C22732C4200BC31D3 /* kitaphucrem.swift */,
+				C400362E22732FC800BC31D3 /* hucreayrinti.swift */,
+				C400362822732A5200BC31D3 /* iki.jpg */,
+				C400362922732A5200BC31D3 /* bir.jpg */,
+				C47E9DAA22752F9A005531BE /* van_gogh.jpg */,
+				C4003630227339F400BC31D3 /* profil.swift */,
+				C400363222733A0D00BC31D3 /* hakkimizda.swift */,
+				C400363422733C2D00BC31D3 /* bar.swift */,
+				C436584B227A500000919BA8 /* DenemeViewController.swift */,
+				C453683F227B29050001A96A /* User.swift */,
+				C4536841227B2AE30001A96A /* BookModel.swift */,
+				C4AA1001227C8E54008A7A65 /* IcerikViewController.swift */,
+				C46F858B227CB19600F8EE8E /* navigation.swift */,
+				C46F858D227CE3F000F8EE8E /* profilbar.swift */,
+				C46F858F227CE65C00F8EE8E /* profilklist.swift */,
+				C4C560B1227DDDD9009FBB4B /* kullanicilar.swift */,
+				C4C560B3227DDE60009FBB4B /* kullanicibar.swift */,
+				C4C560B5227DE40A009FBB4B /* kullanicikitapbar.swift */,
+				C4C560B7227DE4EF009FBB4B /* kullanicidetey.swift */,
+			);
+			path = iosodev;
+			sourceTree = "<group>";
+		};
+		EAE0811712D0DF49192C5AF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B39571C7AAA3945776399059 /* Pods_iosodev.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC9BD9D1226CD65900279881 /* iosodev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC9BD9E4226CD65B00279881 /* Build configuration list for PBXNativeTarget "iosodev" */;
+			buildPhases = (
+				4CF96997EBBE4AECD181DED1 /* [CP] Check Pods Manifest.lock */,
+				BC9BD9CE226CD65900279881 /* Sources */,
+				BC9BD9CF226CD65900279881 /* Frameworks */,
+				BC9BD9D0226CD65900279881 /* Resources */,
+				D16DAEEF756CA8448343C23E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosodev;
+			productName = iosodev;
+			productReference = BC9BD9D2226CD65900279881 /* iosodev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC9BD9CA226CD65900279881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Enes;
+				TargetAttributes = {
+					BC9BD9D1226CD65900279881 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BC9BD9CD226CD65900279881 /* Build configuration list for PBXProject "iosodev" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC9BD9C9226CD65900279881;
+			productRefGroup = BC9BD9D3226CD65900279881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC9BD9D1226CD65900279881 /* iosodev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC9BD9D0226CD65900279881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC9BD9E0226CD65B00279881 /* LaunchScreen.storyboard in Resources */,
+				C400362A22732A5200BC31D3 /* iki.jpg in Resources */,
+				C47E9DAB22752F9B005531BE /* van_gogh.jpg in Resources */,
+				C400362B22732A5200BC31D3 /* bir.jpg in Resources */,
+				BC9BD9DD226CD65B00279881 /* Assets.xcassets in Resources */,
+				BC9BD9DB226CD65900279881 /* Main.storyboard in Resources */,
+				C4DB2EFD2276278400C6006F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CF96997EBBE4AECD181DED1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iosodev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D16DAEEF756CA8448343C23E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iosodev/Pods-iosodev-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iosodev/Pods-iosodev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC9BD9CE226CD65900279881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4C560B8227DE4EF009FBB4B /* kullanicidetey.swift in Sources */,
+				C400363322733A0D00BC31D3 /* hakkimizda.swift in Sources */,
+				C4536840227B29050001A96A /* User.swift in Sources */,
+				C4C560B2227DDDD9009FBB4B /* kullanicilar.swift in Sources */,
+				C436584C227A500000919BA8 /* DenemeViewController.swift in Sources */,
+				C4C560B6227DE40A009FBB4B /* kullanicikitapbar.swift in Sources */,
+				C4C560B4227DDE60009FBB4B /* kullanicibar.swift in Sources */,
+				C4AA1002227C8E54008A7A65 /* IcerikViewController.swift in Sources */,
+				BC9BD9D8226CD65900279881 /* ViewController.swift in Sources */,
+				C400362F22732FC800BC31D3 /* hucreayrinti.swift in Sources */,
+				C400363522733C2D00BC31D3 /* bar.swift in Sources */,
+				C46F8590227CE65C00F8EE8E /* profilklist.swift in Sources */,
+				C46F858C227CB19600F8EE8E /* navigation.swift in Sources */,
+				C4536842227B2AE30001A96A /* BookModel.swift in Sources */,
+				C400362D22732C4200BC31D3 /* kitaphucrem.swift in Sources */,
+				C4003631227339F400BC31D3 /* profil.swift in Sources */,
+				C46F858E227CE3F000F8EE8E /* profilbar.swift in Sources */,
+				BC9BD9D6226CD65900279881 /* AppDelegate.swift in Sources */,
+				C4994B8222710199007C32F1 /* kitaplik.swift in Sources */,
+				C4994B8422710278007C32F1 /* kayitolController.swift in Sources */,
+				C44407502271FF6400278790 /* AnasayfaTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC9BD9D9226CD65900279881 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9BD9DA226CD65900279881 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC9BD9DE226CD65B00279881 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC9BD9DF226CD65B00279881 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC9BD9E2226CD65B00279881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC9BD9E3226CD65B00279881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC9BD9E5226CD65B00279881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1712BFBDBBDF40E84045F9E1 /* Pods-iosodev.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iosodev/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusyarba.iosodev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC9BD9E6226CD65B00279881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44CEDC00D2A81E9945EAC355 /* Pods-iosodev.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iosodev/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunusyarba.iosodev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC9BD9CD226CD65900279881 /* Build configuration list for PBXProject "iosodev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9BD9E2226CD65B00279881 /* Debug */,
+				BC9BD9E3226CD65B00279881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9BD9E4226CD65B00279881 /* Build configuration list for PBXNativeTarget "iosodev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9BD9E5226CD65B00279881 /* Debug */,
+				BC9BD9E6226CD65B00279881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC9BD9CA226CD65900279881 /* Project object */;
+}
